@@ -46,7 +46,7 @@ BuildContext context, bool isLogin, Function onTap){
         onTap();
       },
       child: Text(
-        isLogin ? 'LON IN' : 'SIGN UP',
+        isLogin ? 'LOGIN' : 'SIGN UP',
         style: const TextStyle(
           color: Colors.black87, fontWeight: FontWeight.bold, fontSize: 16
         ),
